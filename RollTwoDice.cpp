@@ -9,4 +9,6 @@ int main(){
     srand(time(0));
     std:: cout << (rand() %(maxValue - minValue +1)) + minValue << "\n";
     std:: cout << (rand() %(maxValue - minValue +1)) + minValue << "\n";
+
+    return 0;
 }
